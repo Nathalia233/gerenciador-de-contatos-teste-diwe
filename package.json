@@ -1,0 +1,19 @@
+{
+  "name": "gerenciador-de-contatos-teste-diwe",
+  "version": "1.0.0",
+  "description": "gerenciador de contatos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathalia233/gerenciador-de-contatos.git"
+  },
+  "author": "Nathalia Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathalia233/gerenciador-de-contatos/issues"
+  },
+  "homepage": "https://github.com/Nathalia233/gerenciador-de-contatos#readme"
+}
