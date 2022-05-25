@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../../js/script/main.js"></script>
 </head>
 <body>
     <a href="../login.html">
@@ -16,16 +17,16 @@
     <a href="./Cadastro/cadastro.html">
         <button>Cadastrar contato</button>
     </a>
-    <p>Total: 60 Contatos</p>
+    <p id = "total"> </p>
     <p class="mais">Ver mais</p>
-    <div class="container">
-        <h1>Lucas Henrique</h1>
-        <h2>lucas@email.com</h2>
+    <div class="container" id = "apiResult">
+        <h1 id = "name"> </h1>
+        <h2 id = "email"> </h2>
         <a href="./Atualizar/atualizar.html">
             <p>Editar</p>
         </a>
         <img src="./cel.png" class="cel">
-        <h3>(11) 98349-5321</h3>
+        <h3 id=" mobile"> </h3>
         <img src="./deletar.png" class="del">
     </div>
 </body>
